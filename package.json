@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-import-yceffort",
+  "name": "eslint-plugin-yceffort-rules",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -12,20 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yceffort/eslint-plugin-import-yceffort.git"
+    "url": "git+https://github.com/yceffort/eslint-plugin-yceffort-rules.git"
   },
   "author": "yceffort",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yceffort/eslint-plugin-import-yceffort/issues"
+    "url": "https://github.com/yceffort/eslint-plugin-yceffort-rules/issues"
   },
-  "homepage": "https://github.com/yceffort/eslint-plugin-import-yceffort#readme",
+  "homepage": "https://github.com/yceffort/eslint-plugin-yceffort-rules#readme",
   "devDependencies": {
-    "@titicaca/eslint-config-triple": "^3.1.0",
     "eslint": "^7.32.0"
   },
   "peerDependencies": {
     "eslint": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "@titicaca/eslint-config-triple": "^3.1.0"
+  }
 }

@@ -2,9 +2,9 @@ const rootRule = require('../.eslintrc.js')
 
 module.exports = {
   ...rootRule,
-  plugins: ['import-yceffort'],
+  plugins: ['yceffort-rules'],
   rules: {
-    'import-yceffort/var-length': 'warn',
-    'import-yceffort/import-react': 'warn',
+    'yceffort-rules/var-length': ['warn', { allowed: ['_'] }],
+    'yceffort-rules/default-import': ['warn', { path: ['react', 'lodash'] }],
   },
 }

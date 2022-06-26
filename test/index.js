@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { MouseEvent } from 'react'
 import lodash from 'lodash'
 
 const f = 'world'

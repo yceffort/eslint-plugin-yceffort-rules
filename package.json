@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-import-yceffort",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:es": "eslint '**/*.{js,ts,tsx}'",
+    "lint:es:fix": "npm run lint:es -- --fix",
+    "lint:etc": "prettier '**/*.{json,yaml,md}' --check",
+    "lint:etc:fix": "prettier '**/*.{json,yaml,md}' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yceffort/eslint-plugin-import-yceffort.git"
+  },
+  "author": "yceffort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yceffort/eslint-plugin-import-yceffort/issues"
+  },
+  "homepage": "https://github.com/yceffort/eslint-plugin-import-yceffort#readme",
+  "devDependencies": {
+    "@titicaca/eslint-config-triple": "^3.1.0",
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8"
+  },
+  "keywords": []
+}
